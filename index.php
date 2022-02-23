@@ -477,11 +477,11 @@
       let output_tatakrama1 = document.getElementById('output_T1');
       let output_hasil = document.getElementById('output_hasil');
 
-      let output_pendidikan2 = document.getElementById('output_P2');
-      let output_sifat2 = document.getElementById('output_S2');
-      let output_kesehatan2 = document.getElementById('output_KS2');
-      let output_pekerjaan2 = document.getElementById('output_PJ2');
-      let output_tatakrama2 = document.getElementById('output_T2');
+      // let output_pendidikan2 = document.getElementById('output_P2');
+      // let output_sifat2 = document.getElementById('output_S2');
+      // let output_kesehatan2 = document.getElementById('output_KS2');
+      // let output_pekerjaan2 = document.getElementById('output_PJ2');
+      // let output_tatakrama2 = document.getElementById('output_T2');
     
       let output_total = document.getElementById('output6');
       let output_seleksi = document.getElementById('output_seleksi');
@@ -548,7 +548,7 @@
         var hasil2 = fungsiKeanggotaanPendidikanBaik(hasilx);
         output_pendidikan.innerText =  hasil;
         output_pendidikan1.innerText = hasil2;
-        output_pendidikan2.innerText = hasilx;
+        // output_pendidikan2.innerText = hasilx;
  
 
       }
@@ -557,14 +557,14 @@
         var hasil2 = fungsiKeanggotaanKesehatanBaik(hasilx);
         output_kesehatan.innerText = hasil;
         output_kesehatan1.innerText = hasil2;
-        output_kesehatan2.innerText = hasilx;
+        // output_kesehatan2.innerText = hasilx;
       }
       function tampil_pekerjaan(hasilx) {
         var hasil = fungsiKeanggotaanPekerjaanTidakLayak(hasilx);
         var hasil2 = fungsiKeanggotaanPekerjaanLayak(hasilx);
         output_pekerjaan.innerText = hasil;
         output_pekerjaan1.innerText = hasil2;
-        output_pekerjaan2.innerText = hasilx;
+        // output_pekerjaan2.innerText = hasilx;
 
       }
       function tampil_sifat(hasilx) {
@@ -572,7 +572,7 @@
         var hasil2 = fungsiKeanggotaanSifatBaik(hasilx);
         output_sifat.innerText = hasil;
         output_sifat1.innerText = hasil2;
-        output_sifat2.innerText = hasilx;
+        // output_sifat2.innerText = hasilx;
 
       }
       function tampil_tatakrama(hasilx) {
@@ -580,7 +580,7 @@
         var hasil2 = fungsiKeanggotaanTatakramaBaik(hasilx);
         output_tatakrama.innerText = hasil;
         output_tatakrama1.innerText = hasil2;
-        output_tatakrama2.innerText = hasilx;
+        // output_tatakrama2.innerText = hasilx;
 
       }
 
